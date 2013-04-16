@@ -3,6 +3,7 @@ ruby '1.9.3'
 
 gem 'rails', '3.2.13'
 gem 'refinerycms', '~> 2.0.0', :git => 'git://github.com/refinery/refinerycms.git', :branch => '2-0-stable'
+gem 'foreman'
 gem 'unicorn'
 gem 'pg'
 gem 'jquery-rails', '~> 2.0.0'

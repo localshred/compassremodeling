@@ -8,6 +8,10 @@ gem 'unicorn'
 gem 'pg'
 gem 'jquery-rails', '~> 2.0.0'
 
+group :production do
+  gem 'fog'
+end
+
 gem 'refinerycms-i18n', '~> 2.0.0'
 gem 'refinerycms-portfolio', :git => 'git://github.com/refinery/refinerycms-portfolio.git', :branch => '2-0-stable'
 gem 'refinerycms-inquiries', '~> 2.0.0'

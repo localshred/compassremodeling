@@ -1,4 +1,13 @@
 GIT
+  remote: git://github.com/refinery/refinerycms-portfolio.git
+  revision: 5c528cfe2ebff8cae4b018c70b74dcc9e6674ac6
+  branch: 2-0-stable
+  specs:
+    refinerycms-portfolio (2.0.0)
+      awesome_nested_set (~> 2.1.0)
+      refinerycms-core (~> 2.0.0)
+
+GIT
   remote: git://github.com/refinery/refinerycms.git
   revision: f792ec854f6570ae806767e04287ac534dbe7ead
   branch: 2-0-stable
@@ -199,6 +208,7 @@ DEPENDENCIES
   rails (= 3.2.13)
   refinerycms (~> 2.0.0)!
   refinerycms-i18n (~> 2.0.0)
+  refinerycms-portfolio!
   sass-rails (~> 3.2.3)
   uglifier (>= 1.0.3)
   unicorn

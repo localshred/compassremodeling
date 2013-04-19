@@ -10,8 +10,9 @@ gem 'jquery-rails', '~> 2.0.0'
 
 gem 'refinerycms-i18n', '~> 2.0.0'
 gem 'refinerycms-portfolio', :git => 'git://github.com/refinery/refinerycms-portfolio.git', :branch => '2-0-stable'
+gem 'refinerycms-inquiries', '~> 2.0.0'
+
 #  gem 'refinerycms-blog', '~> 2.0.0'
-#  gem 'refinerycms-inquiries', '~> 2.0.0'
 #  gem 'refinerycms-search', '~> 2.0.0'
 #  gem 'refinerycms-page-images', '~> 2.0.0'
 
